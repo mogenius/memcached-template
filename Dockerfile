@@ -1,3 +1,5 @@
 FROM memcached:alpine3.15
 
- EXPOSE 11211
+EXPOSE 11211
+
+USER 1000
